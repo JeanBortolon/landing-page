@@ -4,6 +4,8 @@ Resumo rápido
 
 Pequeno projeto de landing page estática. Arquivos principais estão em `index.html` e a pasta `assets/` contém estilos e imagens.
 
+[Acesso ao projeto hospedado na Netlify.](https://landing-page-curso-udemy.netlify.app/)
+
 Estrutura de arquivos
 
 - `index.html` — Página principal (HTML). Contém seções: home, intro, grid-one, gallery, grid-two, pricing, contact e footer. Também implementa um menu lateral controlado por um `input[type=checkbox]` com id `close-menu`.
