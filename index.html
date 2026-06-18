@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/variables.css">
+  <link rel="stylesheet" href="assets/classes.css">
+  <link rel="stylesheet" href="assets/elements.css">
+  <link rel="stylesheet" href="assets/menu.css">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+
+<body>
+    <input id="close-menu" class="close-menu" 
+    type="checkbox" aria-label="close-menu"
+     role="button">
+     <label class="close-menu-label" 
+     for="close-menu" title="close-menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+        <h1 onclick="document.getElementById('close-menu').checked = false;"><a href='#home'>LOGO</a></h1>
+        <nav>
+            <ul onclick="document.getElementById('close-menu').checked = false;">
+                <li><a href='#intro'>intro</a></li>
+                <li><a href='#grid-one'>primeira-grid</a></li>
+                <li><a href='#gallery'>galeria</a></li>
+                <li><a href='#grid-two'>segunda-grid</a></li>
+                <li><a href='#pricing'>preços</a></li>
+                <li><a href='#contact'>contato</a></li>
+            </ul>
+        </nav>
+      </div>
+    </aside>
+    <div class="menu-spacing"></div>
+
+    <section id="home" class=" intro main-bg section">
+      <div class="main-content intro-content">
+      <div class="intro-text-content">
+      <h2>Um texto qualquer para testar meu H2</h2>
+      <p>Um texto qualquer para meu paragráfo Um texto qualquer para meu paragráfo Um texto qualquer para meu paragráfo Um texto qualquer para meu paragráfo Um texto qualquer para meu paragráfo Um texto qualquer para meu paragráfo Um texto qualquer para meu paragráfo</p>
+      </div>
+      <div class="intro-img">
+        <img src="assets/javascript-not-optimized.svg" alt="arte de pessoas segurando logos do html, css e javascript">
+      </div>
+      </div>
+    </section>
+
+    <section id="intro" class="white-bg section">
+      <div class="main-content top3-content">
+        <h2>top 3 jobs</h2>
+        <p>Texto para meu paragrafo 1 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora aliquam perferendis repellendus aspernatur, maxime quis earum consequatur quaerat, hic deserunt voluptatem recusandae ullam? Quod illo doloremque quisquam placeat nobis nam.</p>
+        <p>Texto para meu paragrafo 2 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam quos unde dolorem placeat quia possimus odio. Laborum consequuntur, aspernatur qui quas eius consequatur voluptatum, ab minima consectetur ex recusandae fugiat!</p>
+        <p>Texto para meu paragrafo 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque accusamus doloremque reprehenderit rerum, aut incidunt voluptatibus dolor corrupti atque odit ut voluptas magni perferendis est, sapiente odio neque hic reiciendis.</p>
+      </div>
+    </section>
+    <section id="grid-one" class="grid-one main-bg section">
+      <div class=" main-content grid-one-content">
+      <h2 class="grid-main-heading">Minha Grid 1</h2>
+      <p class="grid-description">Uma breve descrição</p>
+      <div class="grid">
+      <article>
+        <h3>Primeiro</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus numquam commodi totam, cumque veritatis iure rerum vero quisquam autem odio a ex voluptate facilis odit tempora aspernatur. Qui, modi magnam?</p>
+      </article>
+      <article>
+        <h3>Segundo</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus numquam commodi totam, cumque veritatis iure rerum vero quisquam autem odio a ex voluptate facilis odit tempora aspernatur. Qui, modi magnam?</p>
+      </article>  
+      <article>
+        <h3>Terceiro</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus numquam commodi totam, cumque veritatis iure rerum vero quisquam autem odio a ex voluptate facilis odit tempora aspernatur. Qui, modi magnam?</p>
+      </article>     
+      </div>
+      </div>
+    </section>
+   <section id="gallery" class="grid-one white-bg section">
+      <div class=" main-content grid-one-content">
+      <h2 class="grid-main-heading">Gallery</h2>
+      <p class="grid-description">Uma breve descrição</p>
+      <div class="grid">
+      <div class="gallery-img">
+       <img src="assets/images/img1.png" alt="random image 360x360" />
+      </div>
+      <div class="gallery-img">
+       <img src="assets/images/img2.png" alt="random image 360x360" />
+      </div>
+      <div class="gallery-img">
+       <img src="assets/images/img3.png" alt="random image 360x360" />
+      </div>
+            <div class="gallery-img">
+       <img src="assets/images/img1.png" alt="random image 360x360" />
+      </div>
+      <div class="gallery-img">
+       <img src="assets/images/img2.png" alt="random image 360x360" />
+      </div>
+      <div class="gallery-img">
+       <img src="assets/images/img3.png" alt="random image 360x360" />
+      </div>
+      <br>
+    </section>
+    <section id="grid-two" class="grid-one main-bg section">
+      <div class=" main-content grid-one-content">
+      <h2 class="grid-main-heading">Minha Grid 2</h2>
+      <p class="grid-description">Uma breve descrição</p>
+      <div class="grid">
+      <article>
+        <h3>Primeiro</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus numquam commodi totam, cumque veritatis iure rerum vero quisquam autem odio a ex voluptate facilis odit tempora aspernatur. Qui, modi magnam?</p>
+      </article>
+      <article>
+        <h3>Segundo</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus numquam commodi totam, cumque veritatis iure rerum vero quisquam autem odio a ex voluptate facilis odit tempora aspernatur. Qui, modi magnam?</p>
+      </article>  
+      <article>
+        <h3>Terceiro</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus numquam commodi totam, cumque veritatis iure rerum vero quisquam autem odio a ex voluptate facilis odit tempora aspernatur. Qui, modi magnam?</p>
+      </article>     
+      </div>
+      </div>
+    </section>
+    <section id="pricing" class="white-bg section">
+      <div class="main-content top3-content">
+        <h2>Pricing</h2>
+        <p>Texto para meu paragrafo 1 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora aliquam perferendis repellendus aspernatur, maxime quis earum consequatur quaerat, hic deserunt voluptatem recusandae ullam? Quod illo doloremque quisquam placeat nobis nam.</p>
+        <p>Texto para meu paragrafo 2 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam quos unde dolorem placeat quia possimus odio. Laborum consequuntur, aspernatur qui quas eius consequatur voluptatum, ab minima consectetur!</p>
+      
+      <div class="responsive-table">
+        <table>
+          <caption>Tabela de Preços</caption>
+          <thead>
+            <tr>
+            <th>Título 1</th>
+            <th>Título 2</th>
+            <th>Título 3</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Conteúdo 1</td>
+              <td>Conteúdo 2</td>
+              <td>Conteúdo 3</td>
+            </tr>
+                        <tr>
+              <td>Conteúdo 1</td>
+              <td>Conteúdo 2</td>
+              <td>Conteúdo 3</td>
+            </tr>
+            <tr>
+              <td>Conteúdo 1</td>
+              <td>Conteúdo 2</td>
+              <td>Conteúdo 3</td>
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <tr>
+              <td></td>
+              <td></td>
+              <td colspan="3">Testando</td>
+            </tr>
+          </tfoot>
+
+        </table>
+      </div>
+      </div>
+    </section>
+
+      <section id="contact" class=" intro main-bg section">
+      <div class="main-content intro-content">
+      <div class="intro-text-content">
+      <h2>Um texto qualquer para testar meu H2</h2>
+      <p>Um texto qualquer para meu paragráfo Um texto qualquer para meu paragráfo Um texto qualquer para meu paragráfo Um texto qualquer para meu paragráfo Um texto qualquer para meu paragráfo Um texto qualquer para meu paragráfo Um texto qualquer para meu paragráfo</p>
+      </div>
+      <div class="intro-img">
+        <img src="assets/javascript-not-optimized.svg" alt="arte de pessoas segurando logos do html, css e javascript">
+      </div>
+      <div class="contact-form">
+       <fieldset class="form-grid">
+        <legend>Contato</legend>
+        <div class="form-group">
+          <label for="first-name">Nome</label>
+          <input type="text" name="first-name" id="first-name"
+          placeholder="Seu nome">
+        </div>
+        <div class="form-group">
+          <label for="last-name">Sobrenome</label>
+          <input type="text" name="last-name" id="last-name"
+          placeholder="Seu sobrenome">
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input type="email" name="email" id="email"
+          placeholder="Seu e-mail">
+        </div>
+        <div class="form-group full-width">
+          <label for="message">Mensagem</label>
+          <textarea type="message" name="message" id="message" 
+          cols="30" rows="10" placeholder="Sua Mensagem"></textarea>
+        </div>
+        <div class="form-group full full-width">
+          <button type='submit'>Enviar Mensagem</button>
+        </div>
+        <br>
+       </fieldset>
+      </div>
+      </div>
+    </section>
+    <footer id="footer" class="white-bg">
+    <p><a target="_blank" href="https://br.linkedin.com/in/jeanbortolon">Feito com ❤ por Jean Bortolon</a>
+    </p>
+    </footer>
+    <a class="back-to-top" href="#">▲</a>
+  </body>
+</html>
